@@ -1,0 +1,26 @@
+/* 自定义品牌色（覆盖 VitePress 默认主题变量） */
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-dark: #535bf2;
+}
+
+/* 隐藏首页 hero 区块的名称文字下划线动效（可选） */
+.VPHero .name {
+  background: linear-gradient(120deg, var(--vp-c-brand-1), #41d1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ---------- 屏幕显示偏小的调整（按需取消注释） ---------- */
+
+/* 大显示器上觉得内容太窄：调大全站最大宽度（默认 1440px） */
+/* :root {
+  --vp-layout-max-width: 1760px;
+} */
+
+/* 整体等比放大所有元素（代码块、侧边栏等一起变大） */
+/* body {
+  zoom: 1.15;
+} */
