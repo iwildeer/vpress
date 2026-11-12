@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="烂梗文档：一张会整活的文档">
+  <defs>
+    <linearGradient id="vp-page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE14D"/>
+      <stop offset="1" stop-color="#FFAB1F"/>
+    </linearGradient>
+    <linearGradient id="vp-fold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF6C9"/>
+      <stop offset="1" stop-color="#FFE887"/>
+    </linearGradient>
+    <clipPath id="vp-mouth-clip">
+      <path d="M44 72 C47 93 81 93 88 70 C81 78 54 79 44 72 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- 整活能量小星星 -->
+  <path d="M16 13 Q17.6 20.4 25 22 Q17.6 23.6 16 31 Q14.4 23.6 7 22 Q14.4 20.4 16 13 Z" fill="#FF5D8F"/>
+  <path d="M114 57 Q115.2 62.8 121 64 Q115.2 65.2 114 71 Q112.8 65.2 107 64 Q112.8 62.8 114 57 Z" fill="#8B5CF6"/>
+  <path d="M118 96 Q118.9 100 123 101 Q118.9 102 118 106 Q117.1 102 113 101 Q117.1 100 118 96 Z" fill="#FFC53D"/>
+
+  <!-- 文档本体：带气泡尾巴，会发言、会整活 -->
+  <path d="M40 18 H82 L106 42 V92 A14 14 0 0 1 92 106 H58 L30 122 L46 106 H40 A14 14 0 0 1 26 92 V32 A14 14 0 0 1 40 18 Z"
+        fill="url(#vp-page)" stroke="#3F2B00" stroke-width="6" stroke-linejoin="round"/>
+  <!-- 折角 -->
+  <path d="M82 18 V28 A14 14 0 0 0 96 42 H106 Z"
+        fill="url(#vp-fold)" stroke="#3F2B00" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- 吃瓜 side-eye：一大一小两只眼，主打一个不服 -->
+  <ellipse cx="50" cy="52" rx="10.5" ry="11.5" fill="#FFFFFF" stroke="#3F2B00" stroke-width="5"/>
+  <circle cx="53.5" cy="54.5" r="4.8" fill="#3F2B00"/>
+  <ellipse cx="76" cy="50" rx="8.5" ry="9.5" fill="#FFFFFF" stroke="#3F2B00" stroke-width="5"/>
+  <circle cx="79" cy="52" r="4" fill="#3F2B00"/>
+
+  <!-- 玩梗腮红 -->
+  <ellipse cx="35" cy="67" rx="5.5" ry="3.5" fill="#FF7A7A" opacity="0.6"/>
+  <ellipse cx="93" cy="65" rx="5" ry="3.5" fill="#FF7A7A" opacity="0.6"/>
+
+  <!-- 哈哈大笑 + 吐舌 -->
+  <path d="M44 72 C47 93 81 93 88 70 C81 78 54 79 44 72 Z" fill="#3F2B00"/>
+  <g clip-path="url(#vp-mouth-clip)">
+    <path d="M54 84 Q66 94 78 82 Q78 92 66 93 Q58 92 54 84 Z" fill="#FF647F"/>
+  </g>
+</svg>
