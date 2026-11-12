@@ -3,13 +3,16 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Vpress Demo',
+  title: 'vpress',
   description: '一个 VitePress 模板演示站点：性能遥遥领先，整活含量超标',
   lastUpdated: true,
 
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
+
   themeConfig: {
     // https://vitepress.dev/zh/reference/default-theme-config
-    siteTitle: 'Vpress Demo',
+    siteTitle: 'vpress',
+    logo: '/logo.svg',
 
     nav: [
       { text: '首页', link: '/' },
@@ -62,7 +65,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 MIT 许可发布，白嫖请随意，用得开心记得常回来',
-      copyright: 'Copyright © 2026 Vpress Demo'
+      copyright: 'Copyright © 2026 vpress'
     }
   }
 })

@@ -1,4 +1,4 @@
-# Vpress Demo
+# vpress
 
 > 一个 VitePress 模板演示站点:性能遥遥领先,整活含量超标。干货与活梗一锅炖,主打一个松弛感建站。
 
@@ -74,4 +74,4 @@ pnpm dev
 
 [MIT](https://opensource.org/licenses/MIT)——白嫖请随意,用得开心记得常回来。
 
-Copyright © 2026 Vpress Demo
+Copyright © 2026 vpress
