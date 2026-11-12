@@ -7,6 +7,10 @@ export default defineConfig({
   description: '一个 VitePress 模板演示站点：性能遥遥领先，整活含量超标',
   lastUpdated: true,
 
+  // 文档里会引用 http://localhost:5173 这类本地开发地址，
+  // 部署环境下它们必然不存在，跳过对 localhost 链接的死链校验
+  ignoreDeadLinks: 'localhostLinks',
+
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
 
   themeConfig: {
