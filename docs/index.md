@@ -4,6 +4,9 @@ layout: home
 hero:
   name: vpress
   text: "VitePress 模板演示站点"
+  image:
+    src: /logo.svg
+    alt: 烂梗文档 logo：一张咧嘴大笑的整活文档
   tagline: "由 Vite 驱动、以 Markdown 为中心——文档圈的显眼包：性能遥遥领先，干货与活梗一锅炖，主打一个松弛感建站"
   actions:
     - theme: brand

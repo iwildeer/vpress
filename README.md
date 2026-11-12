@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/public/logo.svg" width="140" alt="vpress logo——一张咧嘴大笑、正在整活的文档">
+</p>
+
 # vpress
 
 > 一个 VitePress 模板演示站点:性能遥遥领先,整活含量超标。干货与活梗一锅炖,主打一个松弛感建站。
@@ -56,7 +60,10 @@ pnpm dev
 │   ├── markdown-examples.md  # Markdown 扩展武功秘籍
 │   ├── api-examples.md       # Vue 组件梭哈现场
 │   ├── memes.md              # 赛博梗典——梗浓度全站最高
-│   └── snippets/             # 被文档导入的代码素材库
+│   ├── snippets/             # 被文档导入的代码素材库
+│   └── public/
+│   └── public/
+│       └── logo.svg          # 站点 logo——那张会整活的文档,导航栏/favicon/首页三处上岗
 └── package.json              # 名分与门禁所在地
 ```
 
