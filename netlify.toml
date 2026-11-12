@@ -1,0 +1,12 @@
+# Netlify 部署配置
+# 文档：https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "pnpm build"
+  publish = "docs/.vitepress/dist"
+
+[build.environment]
+  # Node 版本
+  NODE_VERSION = "20"
+  # 强制 Netlify 使用 pnpm 安装依赖（package.json 的 preinstall 只允许 pnpm）
+  NETLIFY_USE_PNPM = "true"
